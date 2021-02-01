@@ -1,2 +1,0 @@
-shasum -a 256 path/file.iso 
-shasum -a 512 path/file.iso
