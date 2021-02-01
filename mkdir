@@ -1,3 +1,6 @@
+# Create new directory under working directory:
+mkdir <new-dir>
+
 # To create nested directories:
 mkdir -p foo/bar/baz
 

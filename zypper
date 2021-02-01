@@ -1,0 +1,28 @@
+# Zypper is the package manager for openSUSE linux
+# Update/Refresh all repository
+zypper refresh 
+zypper ref
+
+# List of available updates
+zypper list-updates
+
+# Update a specific package
+zypper update openssl
+
+# Update all packages
+zypper update
+zypper up
+
+# Search for a package
+zypper serarch usb*
+
+# View details about a package
+zypper info usbutils
+
+# Install a package 
+zypper install usbutils
+zypper in usbutils
+
+# Remove a package
+zypper remove usbutils
+

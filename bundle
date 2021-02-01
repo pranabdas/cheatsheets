@@ -1,0 +1,25 @@
+# Bundler provides a consistent environment for Ruby projects by tracking and 
+# installing the exact gems and versions that are needed.
+
+# Primary commands:
+# Install required gems
+bundle install
+
+# Update packages
+bundle update
+
+# You can delete the vendor folder in your project root first, then
+bundle update && bundle install
+
+# Jekyll serve
+bundle exec jekyll serve --host 0.0.0.0 --port 4000
+bundle exec jekyll serve --host localhost --port 4000
+
+# Jekyll build
+bundle exec jekyll build
+
+# If you do not have Gemfile.lock
+bundle init
+
+# More info: https://bundler.io
+

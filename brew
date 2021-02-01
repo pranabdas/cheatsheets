@@ -1,0 +1,48 @@
+# Install a package
+brew install <package-name>
+
+# Remove/Uninstall a package
+brew uninstall <package-name>
+
+# Upgrade a package
+brew upgrade <package-name>
+
+# Update brew and cask
+brew update
+
+# Upgrade all packages
+brew upgrade
+
+# List installed
+brew list
+
+# What’s due for upgrades?
+brew outdated
+
+# Diagnose brew issues
+brew doctor
+
+# Unlink
+brew unlink git
+
+# Link
+brew link git
+
+# Change versions
+brew switch git 2.5.0
+
+# See what versions you have
+brew list --versions git
+
+# List versions, caveats, etc
+brew info git
+
+# Remove old versions
+brew cleanup git
+
+# Search for formulas
+brew search git
+
+# Brew Cask commands
+brew install --cask firefox
+brew list --cask
